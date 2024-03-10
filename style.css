@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+}
+.container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 530px;
+    margin-right: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+    width: 380px;
+    height: 550px;
+    border-radius: 20px;
+    border: solid black;
+    padding: 1.2rem;
+    box-shadow: 8px 8px 0px black;
+}
+.first{
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+.okay{
+    padding: 5px;
+    border-radius:5px;
+    background-color:hsl(47, 88%, 63%);
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.bas{
+    margin-left: 10px;
+}
